@@ -1,0 +1,74 @@
+body{
+color: rgb(40,40,40);
+background-color: rgb(210,210,210);
+font-family: 'Roboto Slab', serif;
+line-height: 43px;
+}
+
+h1, h2{
+  color: rgb(100,100,100);
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: rgb(170,170,170);
+}
+a:hover{
+  color: rgb(0,0,0);
+}
+p{
+  padding: 60px;
+}
+.container{
+  text-align: center;
+}
+.card{
+  background: white;
+  padding: 48px;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.1);
+  width: 500px;
+  margin: 24px auto;
+}
+.btn-gray{
+  border: 1px solid ;
+  border-radius: 3px;
+  background-color: rgb(210,210,210);
+  padding: 8px;
+}
+.img-circle {
+  border-radius: 50%;
+  padding-top: 16px;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 12px 32px;
+}
+.list-inline i{
+  font-size: 32px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
